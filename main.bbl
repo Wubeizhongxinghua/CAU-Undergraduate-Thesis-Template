@@ -1,0 +1,109 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Huzhenzhen2018}{online}{}
+    \name{author}{1}{}{%
+      {{hash=�}{%
+         family={胡振震},
+         familyi={�\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{�1}
+    \strng{fullhash}{�1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{\LaTeX{}文档中文参考文献的biblatex解决方案}
+    \verb{url}
+    \verb https://github.com/hushidong/biblatex-solution-to-latex-bibliography
+    \endverb
+    \field{year}{2018}
+  \endentry
+
+  \entry{汪昂1881--}{book}{}
+    \name{author}{1}{}{%
+      {{hash=�}{%
+         family={汪昂},
+         familyi={�\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {老二酉堂}%
+    }
+    \strng{namehash}{�1}
+    \strng{fullhash}{�1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{刻本}
+    \field{title}{增订本草备要:四卷}
+    \list{location}{1}{%
+      {上海}%
+    }
+    \field{year}{1881(清光绪七年)}
+    \warn{\item Can't use 'location' + 'address'}
+  \endentry
+
+  \entry{王夫之1845--}{book}{}
+    \name{author}{1}{}{%
+      {{hash=�}{%
+         family={王夫之},
+         familyi={�\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {曾氏}%
+    }
+    \strng{namehash}{�1}
+    \strng{fullhash}{�1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{刻本}
+    \field{title}{宋论}
+    \list{location}{1}{%
+      {金陵}%
+    }
+    \field{year}{1845(清同治四年)}
+  \endentry
+
+  \entry{KENNEDY1975-339-360}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KWJ}{%
+         family={KENNEDY},
+         familyi={K\bibinitperiod},
+         given={W.\bibnamedelima J.},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GRE}{%
+         family={GARRISON},
+         familyi={G\bibinitperiod},
+         given={R.\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KWJGRE1}
+    \strng{fullhash}{KWJGRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{339\bibrangedash 360}
+    \field{title}{Morphology and genesis of nodular chalks and hardgrounds in the Upper Cretacesous of southern England}
+    \field{volume}{8}
+    \field{journaltitle}{Lethaia}
+    \field{year}{1975}
+  \endentry
+\enddatalist
+\endinput
