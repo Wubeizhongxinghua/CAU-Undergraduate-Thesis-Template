@@ -1,0 +1,2 @@
+#用于校验caugraduatethesis.cls和CAU_Undergraduate_Thesis_Template.tex的md5码。使用者从Github上克隆后可检验这两个文件md5码是否一致。
+md5sum -c md5sum.txt

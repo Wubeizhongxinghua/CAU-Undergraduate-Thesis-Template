@@ -1,2 +1,2 @@
 6fdf3926f5c94432f940791d7c1bb81e  CAU_Undergraduate_Thesis_Template.tex
-fe6a36c96a4f77d9f296ea16c7581c44  caugraduatethesis.cls
+9750bc051f7d12170f16e0740f74ba69  caugraduatethesis.cls
