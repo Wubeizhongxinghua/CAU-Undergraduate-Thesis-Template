@@ -320,8 +320,8 @@
         {0em}
         {} % 标题内容
         \titlespacing*{\section}{0cm}{0cm}{0cm}
-        \patchcmd{\listoffigures}{\section*}{\section}{}{}
-        \patchcmd{\listoftables}{\section*}{\section}{}{}
+        % \patchcmd{\listoffigures}{\section*}{\section}{}{}
+        % \patchcmd{\listoftables}{\section*}{\section}{}{}
         \renewcommand{\listfigurename}{插图}
         \renewcommand{\listtablename}{附表}
         \let\clearpage\relax
