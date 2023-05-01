@@ -29,10 +29,10 @@
 %% License      : LaTeX Project Public License v1.3c or later
 %% License URI  : https://www.latex-project.org/lppl.txt
 %% Files        : caugraduatethesis.cls
-%%                Logo.jpg
-%%                CAU_Course_Thesis_Template.tex
-%%                CAU_Course_Thesis_Template.pdf
-%%                中国农业大学课程论文写作格式.doc
+%%                pictures/fig1.png
+%%                pictures/title.png
+%%                CAU_Undergraduate_Thesis_Template.tex
+%%                CAU_Undergraduate_Thesis_Template.pdf
 %% ---------------------------------------------------------------------------
 
 \ProvidesClass{caugraduatethesis}
