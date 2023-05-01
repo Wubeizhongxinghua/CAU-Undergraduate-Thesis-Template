@@ -22,10 +22,10 @@
 %% ---------------------------------------------------------------------------
 %% Class Name   : caugraduatethesis
 %% Description  : China Agricultural University Undergraduate Thesis LaTeX Template
-%% Repository   : https://github.com/Cdmium/CAUTemplate
-%% Version      : 1.2
-%% Copyright    : 2018 阎彧萱
-%% E-mail       : yanyuxuan@cau.edu.cn
+%% Repository   : https://github.com/Wubeizhongxinghua/CAU-Undergraduate-Thesis-Template
+%% Version      : 0.1
+%% Copyright    : 2023 李明阳
+%% E-mail       : limingyang200101@gmail.com
 %% License      : LaTeX Project Public License v1.3c or later
 %% License URI  : https://www.latex-project.org/lppl.txt
 %% Files        : caugraduatethesis.cls
