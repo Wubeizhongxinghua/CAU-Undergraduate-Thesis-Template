@@ -149,6 +149,7 @@
 \RequirePackage{float}
 \newcommand{\figaddr}{}
 \newcommand{\figcap}{}
+\newcommand{\figdes}{}
 \newcommand{\figref}{}
 
 \captionsetup{labelsep=quad} % 设置表格编号和标题之间的间距
@@ -163,15 +164,16 @@
 % \def\tagform@#1{\maketag@@@{图(#1)}}
 % \makeatother % 恢复@符号原有意义
 
-\newcommand{\caufig}[3]{
+\newcommand{\caufig}[4]{
     \renewcommand{\figaddr}{#1}
     \renewcommand{\figcap}{#2}
-    \renewcommand{\figref}{#3}
+    \renewcommand{\figdes}{#3}
+    \renewcommand{\figref}{#4}
     \begin{figure}[H]
         \centering
         \includegraphics[width=0.6\linewidth]{\figaddr}
         \captionsetup{type=figure}
-        \caption{\figcap}
+        \caption[\figcap]{\textbf{\figcap}\\\textmd{\figdes}}
         \label{\figref}
     \end{figure}
 }
