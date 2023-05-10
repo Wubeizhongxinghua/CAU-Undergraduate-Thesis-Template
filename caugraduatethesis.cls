@@ -23,7 +23,7 @@
 %% Class Name   : caugraduatethesis
 %% Description  : China Agricultural University Undergraduate Thesis LaTeX Template
 %% Repository   : https://github.com/Wubeizhongxinghua/CAU-Undergraduate-Thesis-Template
-%% Version      : 0.1
+%% Version      : 0.2
 %% Copyright    : 2023 李明阳
 %% E-mail       : limingyang200101@gmail.com
 %% License      : LaTeX Project Public License v1.3c or later
@@ -49,6 +49,7 @@
 \RequirePackage{setspace}
 \RequirePackage{titlesec}
 \RequirePackage{titletoc}
+\RequirePackage{zhnumber}
 % \RequirePackage{tocloft}
 % \RequirePackage{fancyhdr}
 % \RequirePackage{pagenumbering}
@@ -334,7 +335,7 @@
 %一级标题
 \titleformat{\section}
 {\newpage\centering\zihao{3}\bfseries \heiti\selectfont \setcounter{table}{0} \setcounter{figure}{0} \setcounter{equation}{0}} % 更改字体为粗体和大号
-{第\thesection 章~}
+{第\zhnumber{\thesection} 章~}
 {0em}
 {} % 标题内容
 \titlespacing*{\section}{0cm}{\baselineskip}{\baselineskip}
