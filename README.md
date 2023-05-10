@@ -1,6 +1,6 @@
 # 中国农业大学本科生毕设论文LaTeX模板
 
-![](https://github.com/Wubeizhongxinghua/CAU-Undergraduate-Thesis-Template/blob/main/pictures/CAU.jpg)
+![](https://github.com/Wubeizhongxinghua/CAU-Undergraduate-Thesis-Template/blob/main/pictures/CAU.png)
 
 本LaTeX模板可以根据所填内容自动生成满足《**中国农业大学本科生毕业论文（设计）撰写基本规范**》的本科生毕业论文。
 
