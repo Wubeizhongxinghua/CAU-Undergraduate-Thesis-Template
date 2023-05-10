@@ -173,8 +173,13 @@
         \centering
         \includegraphics[width=0.6\linewidth]{\figaddr}
         \captionsetup{type=figure}
-        \caption[\figcap]{\textbf{\figcap}\\\textmd{\figdes}}
-        \label{\figref}
+        \ifthenelse{\equal{\figdes}{}}{
+            \caption{\figcap}
+            \label{\figref}
+        }{
+            \caption[\figcap]{\textbf{\figcap}\\\textmd{\figdes}}
+            \label{\figref}
+        }
     \end{figure}
 }
 %---------------- 封面 ----------------
