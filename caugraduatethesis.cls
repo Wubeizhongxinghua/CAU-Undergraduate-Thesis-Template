@@ -150,6 +150,7 @@
 \newcommand{\figaddr}{}
 \newcommand{\figcap}{}
 \newcommand{\figdes}{}
+\newcommand{\figwidth}{}
 \newcommand{\figref}{}
 
 \captionsetup{labelsep=quad} % 设置表格编号和标题之间的间距
@@ -164,22 +165,22 @@
 % \def\tagform@#1{\maketag@@@{图(#1)}}
 % \makeatother % 恢复@符号原有意义
 
-\newcommand{\caufig}[4]{
+\newcommand{\caufig}[5]{
     \renewcommand{\figaddr}{#1}
     \renewcommand{\figcap}{#2}
     \renewcommand{\figdes}{#3}
-    \renewcommand{\figref}{#4}
+    \renewcommand{\figwidth}{#4}
+    \renewcommand{\figref}{#5}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.6\linewidth]{\figaddr}
+        \includegraphics[width=\figwidth \linewidth]{\figaddr}
         \captionsetup{type=figure}
         \ifthenelse{\equal{\figdes}{}}{
             \caption{\figcap}
-            \label{\figref}
         }{
-            \caption[\figcap]{\textbf{\figcap}\\\textmd{\figdes}}
-            \label{\figref}
+            \caption[\figcap]{\textbf{\figcap}~\textmd{\figdes}}
         }
+        \label{\figref}
     \end{figure}
 }
 %---------------- 封面 ----------------
