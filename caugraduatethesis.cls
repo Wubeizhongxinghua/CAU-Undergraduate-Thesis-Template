@@ -177,10 +177,11 @@
         \captionsetup{type=figure}
         \ifthenelse{\equal{\figdes}{}}{
             \caption{\figcap}
+            \label{\figref}
         }{
             \caption[\figcap]{\textbf{\figcap}~\textmd{\figdes}}
+            \label{\figref}
         }
-        \label{\figref}
     \end{figure}
 }
 %---------------- 封面 ----------------
@@ -438,6 +439,13 @@
     {0em}
     {} % 标题内容
     \titlespacing*{\section}{0cm}{\baselineskip}{\baselineskip}
+
+    \captionsetup{labelsep=quad} % 设置表格编号和标题之间的间距
+    % \DeclareCaptionLabelFormat{figureprefix}{图#2} % 定义表格编号格式
+    % \captionsetup[figure]{labelformat=figureprefix} % 应用表格编号格式到所有表格
+    % \renewcommand{\captionfont}{\bfseries\zihao{5}\heiti}
+    \renewcommand{\thefigure}{S-\arabic{figure}}
+
     \section{附录}
     \renewcommand{\thesection}{}
     % \addcontentsline{toc}{section}{附录}

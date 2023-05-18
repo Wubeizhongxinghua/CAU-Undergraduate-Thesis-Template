@@ -11,13 +11,14 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{etoolbox}
+\usepackage{seqsplit}
 % \usepackage[style=gb7714-2015,sorting=nyt,maxnames=3,minnames=3,date=year,isbn=false]{biblatex}
 \usepackage[dvipsnames]{xcolor}
 % \usepackage[automark,headsepline=1.5pt,markcase=noupper]{scrlayer-scrpage}
 \setlength{\parindent}{\ccwd}
 % \setlength{\parindent}{4em}
 % \usepackage{pagenumbering}
-\addbibresource{./bibsource.bib}%添加bib文件
+\addbibresource{bibsource}%添加bib文件
 \renewcommand{\listfigurename}{插图}
 \renewcommand{\listtablename}{附表}
 % \bibliographystyle{unsrt}
@@ -281,6 +282,11 @@
     %生成附录
     \makeappx{
         \para{这里是附录的内容。}
+        \caufig{
+                        ./pictures/fig2.jpg
+                    }{
+                        一张附录的图
+                    }{}{0.6}{fig:ex2}
     }
 
     %生成作者简介
