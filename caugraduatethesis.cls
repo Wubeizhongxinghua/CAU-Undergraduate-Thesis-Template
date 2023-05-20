@@ -241,7 +241,8 @@
         \end{spacing}
         \begin{spacing}{1.0833333333}
             \fontsize{14pt}{1.0\baselineskip}\selectfont
-            \vspace*{10\baselineskip}
+            % \vspace*{10\baselineskip}
+            \vspace*{\fill}
             \today
         \end{spacing}
     \end{center}
