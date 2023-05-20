@@ -220,10 +220,14 @@
             \fontsize{14pt}{1.0\baselineskip}\selectfont
             \vspace*{2\baselineskip}
 
+            \begin{spacing}{1.625}
             {\zihao{2}\bfseries \heiti \thesistitlezh} \\
+            \end{spacing}
             \fontsize{10pt}{0.5\baselineskip}\selectfont
             \vspace*{\baselineskip}
+            \begin{spacing}{1.625}
             {\zihao{3}\bfseries \thesistitleen} \\
+            \end{spacing}
             \fontsize{10pt}{1.0\baselineskip}\selectfont
             \vspace*{3\baselineskip}
         \end{spacing}
@@ -445,7 +449,7 @@
     % \captionsetup[figure]{labelformat=figureprefix} % 应用表格编号格式到所有表格
     % \renewcommand{\captionfont}{\bfseries\zihao{5}\heiti}
     \renewcommand{\thefigure}{S-\arabic{figure}}
-
+    \renewcommand{\thetable}{S-\arabic{table}} %章节数-图序号
     \section{附录}
     \renewcommand{\thesection}{}
     % \addcontentsline{toc}{section}{附录}
@@ -486,17 +490,28 @@
     \renewcommand{\otherspro}{#6}
 
     \begin{spacing}{2.1666666667}
-        {\heiti \bfseries \zihao{4}基本介绍（姓名、性别、出生日期、籍贯等）：}\\
-        \para{\baseprofile}
-        {\heiti \bfseries \zihao{4}教育经历：}\\
-        \para{\educationpro}
-        {\heiti \bfseries \zihao{4}本科期间发表的学术论文：}\\
-        \para{\publicationpro}
-        {\heiti \bfseries \zihao{4}本科期间主持/参与的科研项目：}\\
-        \para{\projectpro}
-        {\heiti \bfseries \zihao{4}本科期间获得的奖励和荣誉：}\\
-        \para{\awardpro}
-        {\heiti \bfseries \zihao{4}其他成果：}\\
-        \para{\otherspro}
+        \para{{\heiti \bfseries \zihao{4}基本介绍（姓名、性别、出生日期、籍贯等）：}}
+        \vspace*{\baselineskip}
+        \baseprofile
+        \vspace*{\baselineskip}
+        \para{{\heiti \bfseries \zihao{4}教育经历：}}
+        \vspace*{\baselineskip}
+        \educationpro
+        \vspace*{\baselineskip}
+        \para{{\heiti \bfseries \zihao{4}本科期间发表的学术论文：}}
+        \vspace*{\baselineskip}
+        \publicationpro
+        \vspace*{\baselineskip}
+        \para{{\heiti \bfseries \zihao{4}本科期间主持/参与的科研项目：}}
+        \vspace*{\baselineskip}
+        \projectpro
+        \vspace*{\baselineskip}
+        \para{{\heiti \bfseries \zihao{4}本科期间获得的奖励和荣誉：}}
+        \vspace*{\baselineskip}
+        \awardpro
+        \vspace*{\baselineskip}
+        \para{{\heiti \bfseries \zihao{4}其他成果：}}
+        \vspace*{\baselineskip}
+        \otherspro
     \end{spacing}
 }
