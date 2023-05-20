@@ -42,7 +42,7 @@
 
 %---------------- 基本包导入 ----------------
 \RequirePackage{graphicx}
-\RequirePackage{hyperref}
+\RequirePackage[hidelinks]{hyperref}
 \RequirePackage{ctex}
 \RequirePackage{xeCJK}
 \RequirePackage{fontspec}
