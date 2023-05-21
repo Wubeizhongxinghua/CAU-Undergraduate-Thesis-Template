@@ -412,6 +412,12 @@
     {}
     {0em}
     {} % 标题内容
+    \titlecontents{section}
+    [1.5em]
+    {\zihao{4}\heiti}
+    {}
+    {}
+    {\titlerule*[0.5pc]{.}\contentspage}
     \titlespacing*{\section}{0cm}{\baselineskip}{\baselineskip}
     \renewcommand{\thesection}{}
     \section{致谢}
