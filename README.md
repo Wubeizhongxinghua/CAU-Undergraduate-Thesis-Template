@@ -33,13 +33,13 @@
 
   ```tex
   \makeabs{
-              文章摘要内容
+              \para{文章摘要内容} %每一段都需要用\para{}括起来
           }{
               关键词1，关键词2，关键词3
   }
       %生成英文摘要页
   \makeabsen{
-              This is the abstract of article.
+              \para{This is the abstract of article.} %每一段都需要用\para{}括起来
           }{
               kwd1, kwd2, kwd3
   }
@@ -161,4 +161,5 @@
 
 + 0.4:
   + 添加了代码格式，现在可以插入代码了
-  + 作者简介栏目的插入文字方法现在与正文一致，都需要\para{}
+  + 作者简介栏目的插入文字方法现在与正文一致，都需要`\para{}`
+  + 摘要现在需要用`\para{}`将段落括起来

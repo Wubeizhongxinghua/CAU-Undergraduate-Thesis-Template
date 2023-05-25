@@ -277,10 +277,12 @@
         \fancyfoot[C]{\thepage}
     }
     \begin{spacing}{2.1666666667}
+        \para{
         \begin{center}
-            \textbf{\zihao{3}摘\hspace{1em}要}\\
+            \textbf{\zihao{3}摘\hspace{1em}要}
         \end{center}
-        {\zihao{-4}\abstext}\\
+        }
+        \abstext
         \textbf{\zihao{4}关键词：}{\zihao{-4}\keyword}
     \end{spacing}
     \clearpage
@@ -301,15 +303,16 @@
         \fancyfoot[C]{\thepage}
     }
     \begin{spacing}{2.1666666667}
+        \para{
         \begin{center}
-            \textbf{\zihao{3}Abstract}\\
+            \textbf{\zihao{3}Abstract}
         \end{center}
-        {\zihao{-4}\abstexten}\\
+        }
+        \abstexten
         \textbf{\zihao{4}Key words: }{\zihao{-4}\keyworden}
     \end{spacing}
     \clearpage
 }
-
 %-------------------------- 目录格式设置 ---------------------------
 \renewcommand{\contentsname}{\centering\hfill\zihao{3}\bfseries 目\hspace{1.5em}录\hfill}
 
