@@ -141,7 +141,7 @@
 ## 说明
 
 + 推荐的编译方式：
-  `xelatex -> biblatex -> xelatex*2`
+  `xelatex -> biber -> xelatex*2`
 
 ## 更新日志
 
@@ -163,3 +163,10 @@
   + 添加了代码格式，现在可以插入代码了
   + 作者简介栏目的插入文字方法现在与正文一致，都需要`\para{}`
   + 摘要现在需要用`\para{}`将段落括起来
+
++ 0.5 by [#1](https://github.com/Wubeizhongxinghua/CAU-Undergraduate-Thesis-Template/pull/1) by [YanTianlong-01](https://github.com/YanTianlong-01):
+  + 修改引用文献条目样式，符合标准。
+  + 修改图表标题字体。
+  + 修改图片详细描述的位置。
+  + 修改三级标题的段前、段后间距。
+  + 同时把项目上传到Overleaf上，无需本地配置，即开即用。

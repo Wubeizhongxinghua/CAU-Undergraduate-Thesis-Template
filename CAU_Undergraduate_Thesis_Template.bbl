@@ -1,0 +1,215 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Huzhenzhen2018}{online}{}
+      \name{author}{1}{}{%
+        {{hash=336c857784ae80f1aefda2b6af9dcf71}{%
+           family={胡振震},
+           familyi={胡\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=336c857784ae80f1aefda2b6af9dcf71}{%
+           family={胡振震},
+           familyi={胡\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{fullhash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{bibnamehash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{authorbibnamehash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{authornamehash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{authorfullhash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{nameabibnamehash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{nameanamehash}{336c857784ae80f1aefda2b6af9dcf71}
+      \strng{nameafullhash}{336c857784ae80f1aefda2b6af9dcf71}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{\LaTeX{}文档中文参考文献的biblatex解决方案}
+      \field{usera}{EB}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/hushidong/biblatex-solution-to-latex-bibliography
+      \endverb
+      \verb{url}
+      \verb https://github.com/hushidong/biblatex-solution-to-latex-bibliography
+      \endverb
+      \keyw{Huzhenzhen2018}
+    \endentry
+    \entry{汪昂1881--}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7a5c2136637fc14ccfbb860f2a2916f2}{%
+           family={汪昂},
+           familyi={汪\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=7a5c2136637fc14ccfbb860f2a2916f2}{%
+           family={汪昂},
+           familyi={汪\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{location}{1}{%
+        {上海}%
+      }
+      \list{publisher}{1}{%
+        {老二酉堂}%
+      }
+      \strng{namehash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{fullhash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{bibnamehash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{authorbibnamehash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{authornamehash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{authorfullhash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{nameabibnamehash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{nameanamehash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \strng{nameafullhash}{7a5c2136637fc14ccfbb860f2a2916f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{刻本}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{增订本草备要:四卷}
+      \field{usera}{M}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{1881(清光绪七年)}
+      \keyw{汪昂1881--}
+      \warn{\item book entry '汪昂1881--' (bibsource.bib): Invalid format '1881(清光绪七年)' of date field 'date' - ignoring}
+    \endentry
+    \entry{王夫之1845--}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5d7f17cf26a6ad233fcf74b395ae60fc}{%
+           family={王夫之},
+           familyi={王\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=5d7f17cf26a6ad233fcf74b395ae60fc}{%
+           family={王夫之},
+           familyi={王\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{location}{1}{%
+        {金陵}%
+      }
+      \list{publisher}{1}{%
+        {曾氏}%
+      }
+      \strng{namehash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{fullhash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{bibnamehash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{authorbibnamehash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{authornamehash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{authorfullhash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{nameabibnamehash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{nameanamehash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \strng{nameafullhash}{5d7f17cf26a6ad233fcf74b395ae60fc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{刻本}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{宋论}
+      \field{usera}{M}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{1845(清同治四年)}
+      \keyw{王夫之1845--}
+      \warn{\item book entry '王夫之1845--' (bibsource.bib): Invalid format '1845(清同治四年)' of date field 'date' - ignoring}
+    \endentry
+    \entry{KENNEDY1975-339-360}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ec197b607b299e25ead8b74d0d56e759}{%
+           family={KENNEDY},
+           familyi={K\bibinitperiod},
+           given={W.\bibnamedelimi J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=39698304647a2516d0e1c0c7410eb02b}{%
+           family={GARRISON},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=ec197b607b299e25ead8b74d0d56e759}{%
+           family={KENNEDY},
+           familyi={K\bibinitperiod},
+           given={W.\bibnamedelimi J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=39698304647a2516d0e1c0c7410eb02b}{%
+           family={GARRISON},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{fullhash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{bibnamehash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{authorbibnamehash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{authornamehash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{authorfullhash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{nameabibnamehash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{nameanamehash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \strng{nameafullhash}{cf6198bba7e858cf8da81c96ce10d2d5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lethaia}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Morphology and genesis of nodular chalks and hardgrounds in the Upper Cretacesous of southern England}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{volume}{8}
+      \field{year}{1975}
+      \field{dateera}{ce}
+      \field{pages}{339\bibrangedash 360}
+      \range{pages}{22}
+      \keyw{KENNEDY1975-339-360}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

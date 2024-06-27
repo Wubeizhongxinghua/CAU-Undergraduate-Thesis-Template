@@ -389,8 +389,9 @@
 
 %-------------------------- 参考文献格式设置 ---------------------------
 \RequirePackage{url}
+% !BIB TS-program = biber
 \RequirePackage[style=gb7714-2015,backend=biber,sorting=none,maxnames=3,minnames=3,date=year,isbn=false]{biblatex}
-\addbibresource[location=local]{bibsource.bib} %注意这里bibfile.bib要替换成你的bib文件名
+\addbibresource{bibsource.bib} %注意这里bibfile.bib要替换成你的bib文件名
 \renewcommand{\bibfont}{\zihao{-5}\songti}
 % \newcommand{\bibname}{参考文献}
 \setlength{\bibitemsep}{2pt}
