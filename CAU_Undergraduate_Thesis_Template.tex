@@ -12,16 +12,12 @@
 \usepackage{array}
 \usepackage{etoolbox}
 \usepackage{seqsplit}
-% \usepackage[style=gb7714-2015,sorting=nyt,maxnames=3,minnames=3,date=year,isbn=false]{biblatex}
+\usepackage{amsmath}
 \usepackage[dvipsnames]{xcolor}
-% \usepackage[automark,headsepline=1.5pt,markcase=noupper]{scrlayer-scrpage}
 \setlength{\parindent}{\ccwd}
-% \setlength{\parindent}{4em}
-% \usepackage{pagenumbering}
 \addbibresource{bibsource}%添加bib文件
 \renewcommand{\listfigurename}{插图}
 \renewcommand{\listtablename}{附表}
-% \bibliographystyle{unsrt}
 %%%%%%%%%%%%%%%%%%%%%%%% 一般情况下，您无须修改以上内容 %%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -29,19 +25,19 @@
 
     %--------------------- 生成封面 ----------------------
     \makecover{
-        这里是论文的标题
+        你的毕业设计题目
     }{
-        This Is English Title
+        Your graduation design topic
     }{
-        学生姓名
+        你的姓名
     }{
-        指导教师
+        你的指导老师姓名
     }{
-        合作指导教师
+        你的指导老师姓名
     }{
-        专业名称
+        你的专业
     }{
-        所在学院
+        你的学院全称
     }
 
     %--------------------- 空一页 -----------------------
@@ -51,15 +47,20 @@
     \pagenumbering{Roman} %罗马数字页码
     %生成中文摘要页
     \makeabs{
-            \para{这里是文章的摘要}
+            \para{
+            这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。这是摘要的第一段。}
+            \para{这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。这是摘要的第二段。}
+            \para{这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。这是摘要的第三段。}
         }{
-            关键词1，关键词2，关键词3
+            你的关键词1, 你的关键词2, 你的关键词3，你的关键词4，你的关键词5
         }
     %生成英文摘要页
     \makeabsen{
-            \para{This is the abstract of article.}
+            \para{This is the first paragraph of the abstract. This is the first paragraph of the abstract. This is the first paragraph of the abstract. This is the first paragraph of the abstract. This is the first paragraph of the abstract. This is the first paragraph of the abstract.}
+            \para{This is the second paragraph of the abstract. This is the second paragraph of the abstract. This is the second paragraph of the abstract. This is the second paragraph of the abstract. This is the second paragraph of the abstract. This is the second paragraph of the abstract. This is the second paragraph of the abstract. This is the second paragraph of the abstract.}
+            \para{This is the third paragraph of the abstract. This is the third paragraph of the abstract. This is the third paragraph of the abstract. This is the third paragraph of the abstract. This is the third paragraph of the abstract. This is the third paragraph of the abstract. This is the third paragraph of the abstract. This is the third paragraph of the abstract.}
         }{
-            kwd1, kwd2, kwd3
+            Your keywords1, Your keywords2, Your keywords3, Your keywords4, Your keywords5
         }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

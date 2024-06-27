@@ -98,7 +98,7 @@
 \captionsetup{labelsep=quad} % 设置表格编号和标题之间的间距
 \DeclareCaptionLabelFormat{tableprefix}{表#2} % 定义表格编号格式 #2对应\thetable
 \captionsetup[table]{labelformat=tableprefix} % 应用表格编号格式到所有表格
-\renewcommand{\captionfont}{\bfseries\zihao{5}\heiti}
+\renewcommand{\captionfont}{\zihao{5}\heiti}
 \renewcommand{\thetable}{\thesection-\arabic{table}} %章节数-图序号
 %如下设置使得\ref的输出格式与展示格式相同
 % \numberwithin{table}{section}
@@ -111,6 +111,8 @@
 \RequirePackage{threeparttable}
 \RequirePackage{xstring}
 \newcolumntype{Z}{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}X}
+\newcolumntype{Y}{>{\centering\arraybackslash}p{0.1\linewidth}}
+\newcolumntype{W}{>{\centering\arraybackslash}p{0.2\linewidth}}
 
 \newcommand{\tblcaption}{}
 \newcommand{\tblanno}{}
@@ -157,7 +159,7 @@
 \captionsetup{labelsep=quad} % 设置表格编号和标题之间的间距
 \DeclareCaptionLabelFormat{figureprefix}{图#2} % 定义表格编号格式
 \captionsetup[figure]{labelformat=figureprefix} % 应用表格编号格式到所有表格
-\renewcommand{\captionfont}{\bfseries\zihao{5}\heiti}
+\renewcommand{\captionfont}{\zihao{5}\heiti}
 \renewcommand{\thefigure}{\thesection-\arabic{figure}}
 %如下设置使得\ref的输出格式与展示格式相同
 % \numberwithin{figure}{section}
@@ -172,16 +174,17 @@
     \renewcommand{\figdes}{#3}
     \renewcommand{\figwidth}{#4}
     \renewcommand{\figref}{#5}
+ 
     \begin{figure}[H]
         \centering
         \includegraphics[width=\figwidth \linewidth]{\figaddr}
         \captionsetup{type=figure}
-        \ifthenelse{\equal{\figdes}{}}{
-            \caption{\figcap}
-            \label{\figref}
-        }{
-            \caption[\figcap]{\textbf{\figcap}~\textmd{\figdes}}
-            \label{\figref}
+        \caption{\figcap}
+        \label{\figref}
+        \ifthenelse{\equal{\figdes}{}}{}{
+            % \vspace{0.5em}
+            \captionsetup{font=small}
+            \caption*{\figdes}
         }
     \end{figure}
 }
@@ -373,7 +376,7 @@
 {\thesubsubsection~}
 {0em}
 {} % 标题内容
-\titlespacing*{\subsubsection}{0cm}{\baselineskip}{\baselineskip}
+\titlespacing*{\subsubsection}{0cm}{0.7\baselineskip}{0.7\baselineskip}
 
 %正文
 \newcommand{\maintext}{}
@@ -386,7 +389,8 @@
 
 %-------------------------- 参考文献格式设置 ---------------------------
 \RequirePackage{url}
-\RequirePackage[style=gb7714-2015,backend=bibtex,sorting=none,maxnames=3,minnames=3,date=year,isbn=false]{biblatex}
+\RequirePackage[style=gb7714-2015,backend=biber,sorting=none,maxnames=3,minnames=3,date=year,isbn=false]{biblatex}
+\addbibresource[location=local]{bibsource.bib} %注意这里bibfile.bib要替换成你的bib文件名
 \renewcommand{\bibfont}{\zihao{-5}\songti}
 % \newcommand{\bibname}{参考文献}
 \setlength{\bibitemsep}{2pt}
