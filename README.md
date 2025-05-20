@@ -2,7 +2,7 @@
 
 ![](https://github.com/Wubeizhongxinghua/CAU-Undergraduate-Thesis-Template/blob/main/pictures/CAU.png)
 
-本LaTeX模板可以根据所填内容自动生成满足《**中国农业大学本科生毕业论文（设计）撰写基本规范**》的本科生毕业论文。
+本LaTeX模板可以根据所填内容自动生成满足[《**中国农业大学本科生毕业论文（设计）撰写基本规范**》](https://cem.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=c806c54bfaac421c9103c7760d3a77f9.pdf)的本科生毕业论文。
 
 本模板提供 `caugraduatethesis`文档类，该文档类中封装有一系列满足格式要求的插入方法，并对LaTeX中内置代码进行了一系列的格式修改。详细使用方法见下文。
 
